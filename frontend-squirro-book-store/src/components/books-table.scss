@@ -1,0 +1,27 @@
+.best-sellers {
+  padding: 10px;
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table, th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  table, td {
+    border: 1px solid #bbb;
+  }
+  th {
+    font-size: 18px;
+  }
+}
+
+
+
+
+.no-best-sellers {
+  border: 1px solid black;
+  padding: 40px
+}

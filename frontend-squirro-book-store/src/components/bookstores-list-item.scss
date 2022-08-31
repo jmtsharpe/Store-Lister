@@ -1,0 +1,52 @@
+.store {
+  width: 100%;
+  border: 1px solid black;
+  margin: 20px 0;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 20px;
+  .store-body {
+    flex-direction: row;
+    flex-wrap: wrap;
+    .store-image-container {
+      flex-grow: 1;
+      max-width: 200px;
+      max-height: 200px;
+      margin: auto;
+      height: 100%;
+      width: 100%;
+      align-items: center;
+    }
+    .store-info {
+      flex-direction: column;
+      flex-grow: 4;
+    }
+
+    .store-header {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+      flex-wrap: wrap;
+
+
+      .store-name {
+        font-size: 24px;
+        margin: unset;
+      }
+
+      .store-item-rater {
+        margin: auto;
+        margin-right: 0;
+      }
+    }
+  }
+
+
+  .store-footer {
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
+
+}

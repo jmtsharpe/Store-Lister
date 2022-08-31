@@ -1,0 +1,12 @@
+.rating-button {
+  border-radius: 50%;
+  background: white;
+  background-image: url('../../public/star.svg');
+  height: 20px;
+  width: 20px;
+  border: none;
+  &.rate-gold {
+    background-image: url('../../public/gold-star.svg');
+  }
+  cursor: pointer;
+}
